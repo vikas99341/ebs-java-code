@@ -4,14 +4,14 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-      - echo Build started on 'date'
+      - echo Build started on `date`
       - mvn clean package
   post_build:
     commands:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/ebs-java-code*/*
+    - target/car-rentals*/*
   discard-paths: yes
 
 cache:
