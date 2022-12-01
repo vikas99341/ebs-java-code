@@ -1,5 +1,5 @@
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
+	<body>
+		<h1 style="color:red;">Welcome to Car Rentals App!</h1>
+	</body>
 </html>
